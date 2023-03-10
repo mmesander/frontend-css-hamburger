@@ -10,7 +10,7 @@
     --hamburger-color: #D84282;
 }
 
-div {
+#menu {
     margin: 200px;
     width: 350px;
     height: 50px;
@@ -18,7 +18,7 @@ div {
     position: relative;
 }
 
-div::before {
+#menu::before {
     content: "";
     display: block;
     width: 350px;
@@ -30,7 +30,7 @@ div::before {
     border-top-right-radius: 60px;
 }
 
-div::after {
+#menu::after {
     content: "";
     display: block;
     width: 350px;
